@@ -1,7 +1,8 @@
 from socketserver import *
+import socket
 
-host = 'localhost'
-port = 777
+host = '0.0.0.0'
+port = 9090
 addr = (host, port)
 
 class MyUDPHandler(DatagramRequestHandler):

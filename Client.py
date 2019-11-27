@@ -1,8 +1,8 @@
 from socket import *
 import sys
 
-host = 'localhost'
-port = 777
+host = '192.168.0.70'
+port = 9090
 addr = (host,port)
 
 udp_socket = socket(AF_INET, SOCK_DGRAM)
