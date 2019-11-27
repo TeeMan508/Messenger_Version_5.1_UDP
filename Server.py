@@ -1,5 +1,5 @@
 from socketserver import *
-import socket
+#import socket
 
 host = '0.0.0.0'
 port = 9090
